@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-mongoose.Promise = global.Promise;
 
 var Todo = mongoose.model('Todo', {
   text: {
